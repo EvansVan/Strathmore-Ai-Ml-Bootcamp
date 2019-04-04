@@ -1,6 +1,6 @@
 A short exercise provided at the end of a short Artificial Inteligence & Machine Learning Bootcamp offered at Strathmore University Nairobi. 
 
-This focused on the use of Python in machine learning and taugh about the Numpy, Matplotlib and Pandas modules which are then used to explore the dataset provided.The exercise has been completed using juniper notebook.
+This focused on the use of Python in machine learning and taugh about the Numpy, Matplotlib and Pandas modules which are then used to explore the dataset provided.The exercise has been completed using jupyter notebook.
 
 Below are the questions. screenshots have also been attached to assist with visualization. 
 
