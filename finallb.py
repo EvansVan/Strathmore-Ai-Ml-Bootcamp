@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-ds = pd.read_csv("~/Desktop/Ai & Ml/final/California_cities.csv", index_col=['city'])
+ds = pd.read_csv("~/Desktop/Ai&Ml/final/California_cities.csv", index_col=['city'])
 
 #Checking the values of central tendancies
 print(ds.describe())
@@ -65,7 +65,6 @@ plt.show()
 #Q8.Hist of area total sq mi
 x = ds['area_total_sq_mi']
 print(x)
-bins = [0, 20, 40, 60, 80, 100, 120,140,160,180,200,220,240,260,280,300,320,340,360,380,400]
-plt.hist(x,bins)
+plt.hist(x, bins=20)
 plt.show()
 
